@@ -3,7 +3,7 @@ Summary:	Data-PropertyList perl module
 Summary(pl):	Modu³ perla Data-PropertyList
 Name:		perl-Data-PropertyList
 Version:	1998.1217
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
