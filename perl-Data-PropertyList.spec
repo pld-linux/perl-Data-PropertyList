@@ -30,7 +30,7 @@ information in text files, or perhaps for generating error messages
 while debugging.
 
 %description -l pl
-Modu³ perla Data::PropertyList udostêpnia funkcje przekszta³caj±c±
+Modu³ Perla Data::PropertyList udostêpnia funkcje przekszta³caj±c±
 struktury z zagnie¿d¿onymi wska¼nikami do formatu tekstowego NeXT's
 Property List i z powrotem.
 
