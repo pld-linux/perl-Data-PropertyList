@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Data
 %define	pnam	PropertyList
-Summary:	Data-PropertyList perl module
-Summary(pl):	Modu³ perla Data-PropertyList
+Summary:	Data::PropertyList perl module
+Summary(pl):	Modu³ perla Data::PropertyList
 Name:		perl-Data-PropertyList
 Version:	1998.1217
 Release:	8
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Data-PropertyList - Convert arbitrary objects to/from strings.
+Data::PropertyList - Convert arbitrary objects to/from strings.
 
 %description -l pl
-Modu³ perla Data-PropertyList.
+Modu³ perla Data::PropertyList.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
