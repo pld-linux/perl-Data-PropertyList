@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Data
 %define	pnam	PropertyList
-%include	/usr/lib/rpm/macros.perl
 Summary:	Data-PropertyList perl module
 Summary(pl):	Modu³ perla Data-PropertyList
 Name:		perl-Data-PropertyList
 Version:	1998.1217
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ Data-PropertyList - Convert arbitrary objects to/from strings.
 Modu³ perla Data-PropertyList.
 
 %prep
-%setup -q -n Data-PropertyList-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
