@@ -3,7 +3,7 @@ Summary:	Data-PropertyList perl module
 Summary(pl):	Modu³ perla Data-PropertyList
 Name:		perl-Data-PropertyList
 Version:	1998.1217
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -12,6 +12,7 @@ Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Data/Data-PropertyList-%{
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-String-Escape
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
