@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Data
-%define	pnam	PropertyList
+%define		pdir	Data
+%define		pnam	PropertyList
 Summary:	Data::PropertyList - convert arbitrary objects to/from strings
 Summary(pl):	Data::PropertyList - konwersja dowolnych obiektów do/z ³añcuchów tekstowych
 Name:		perl-Data-PropertyList
