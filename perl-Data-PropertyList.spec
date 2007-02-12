@@ -6,7 +6,7 @@
 %define		pdir	Data
 %define		pnam	PropertyList
 Summary:	Data::PropertyList - convert arbitrary objects to/from strings
-Summary(pl):	Data::PropertyList - konwersja dowolnych obiektów do/z ³añcuchów tekstowych
+Summary(pl.UTF-8):   Data::PropertyList - konwersja dowolnych obiektÃ³w do/z Å‚aÅ„cuchÃ³w tekstowych
 Name:		perl-Data-PropertyList
 Version:	1998.1217
 Release:	10
@@ -29,14 +29,14 @@ You may find this useful for saving and loading application
 information in text files, or perhaps for generating error messages
 while debugging.
 
-%description -l pl
-Modu³ Perla Data::PropertyList udostêpnia funkcje przekszta³caj±c±
-struktury z zagnie¿d¿onymi wska¼nikami do formatu tekstowego NeXT's
+%description -l pl.UTF-8
+ModuÅ‚ Perla Data::PropertyList udostÄ™pnia funkcje przeksztaÅ‚cajÄ…cÄ…
+struktury z zagnieÅ¼dÅ¼onymi wskaÅºnikami do formatu tekstowego NeXT's
 Property List i z powrotem.
 
 Jest on przydatny do zachowywania informacji z aplikacji w pliku
-tekstowym i jej odczytywania z pliku. Przydaje siê te¿ do generowania
-komunikatów o b³êdach podczas odpluskwiania.
+tekstowym i jej odczytywania z pliku. Przydaje siÄ™ teÅ¼ do generowania
+komunikatÃ³w o bÅ‚Ä™dach podczas odpluskwiania.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
