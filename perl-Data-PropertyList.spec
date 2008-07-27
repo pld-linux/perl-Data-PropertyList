@@ -9,7 +9,7 @@ Summary:	Data::PropertyList - convert arbitrary objects to/from strings
 Summary(pl.UTF-8):	Data::PropertyList - konwersja dowolnych obiektów do/z łańcuchów tekstowych
 Name:		perl-Data-PropertyList
 Version:	1998.1217
-Release:	10
+Release:	11
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
