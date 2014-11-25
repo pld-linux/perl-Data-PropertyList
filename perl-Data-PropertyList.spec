@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Data
 %define		pnam	PropertyList
+%include	/usr/lib/rpm/macros.perl
 Summary:	Data::PropertyList - convert arbitrary objects to/from strings
 Summary(pl.UTF-8):	Data::PropertyList - konwersja dowolnych obiektów do/z łańcuchów tekstowych
 Name:		perl-Data-PropertyList
@@ -14,9 +14,10 @@ License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d685c3ae087d1e55d4b0adc0dd4c2108
-BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/Data-PropertyList/
 BuildRequires:	perl-String-Escape
+BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
