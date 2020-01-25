@@ -4,7 +4,6 @@
 
 %define		pdir	Data
 %define		pnam	PropertyList
-%include	/usr/lib/rpm/macros.perl
 Summary:	Data::PropertyList - convert arbitrary objects to/from strings
 Summary(pl.UTF-8):	Data::PropertyList - konwersja dowolnych obiektów do/z łańcuchów tekstowych
 Name:		perl-Data-PropertyList
